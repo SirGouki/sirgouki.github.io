@@ -1,0 +1,38 @@
+/*** TAG SELECTORS (name) ***/
+
+body{
+  background-color: #7dd3a4;
+  display: block;
+  width: 80%;
+  margin: auto;
+  font-size: 14pt;
+  color: black;
+}
+
+h1{
+  color: #1fab89;
+}
+
+h3{
+  color: #1fab89;
+}
+
+hr{
+  color: #1fab89;
+  border-style: inset;
+  border-width: 2px;
+  width: 50%;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/*** CLASS SELECTORS (.name)***/
+
+.profile{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 100%;
+}
+
+/*** ID SELECTORS (#name) ***/
