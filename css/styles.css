@@ -1,0 +1,70 @@
+/*** Tags ***/
+body{
+  background-color: white;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto 0 auto; /*intent: remove the border from all sides of body*/
+  width: 100%;
+  font-family: "Bellota Text", cursive;
+  font-size: 14pt;
+  position:relative;
+}
+div{
+  padding: 0;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h1{
+  margin-top: 0;
+  margin: auto;
+  width: 75%;
+  font-family: "Arizonia", cursive;
+}
+p{
+  margin: auto;
+  width: 75%;
+  padding: 8px 0 8px 0; /* linter complains about 0 with unit ID*/
+}
+img{
+  display: inline-block;
+  position: absolute;
+}
+em{
+  font-family: serif;
+}
+
+/*** Classes ***/
+/*** divs ***/
+.header{
+  background-color: lightgreen;
+}
+.menu{
+  background-color: green;
+  height: 16px;
+}
+.content{
+  background-color: #77bb66;
+  color: #776677;
+  position: relative;
+  height: 480px;
+}
+
+.mountain{
+  bottom: 0;
+  transform: translateX(-50%);
+}
+.cloud1{
+  right: 10%;
+  top: 300px;
+}
+.cloud2{
+  left: 25%;
+  top: 240px;
+}
+/***list***/
+
+
+/*** IDs ***/
+
+/*** Names (tag[name="name"])***/
