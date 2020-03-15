@@ -29,6 +29,7 @@ p{
 img{
   display: inline-block;
   position: absolute;
+  z-index: 0;
 }
 em{
   font-family: serif;
@@ -47,20 +48,30 @@ em{
   background-color: #77bb66;
   color: #776677;
   position: relative;
-  height: 480px;
+  height: 280px;
 }
-
+.content::after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
 .mountain{
   bottom: 0;
   transform: translateX(-50%);
 }
 .cloud1{
-  right: 10%;
-  top: 300px;
+  right: 13%;
+  top: 33%;
 }
 .cloud2{
-  left: 25%;
-  top: 240px;
+  left: 22%;
+  top: 50%;
+}
+.text
+{
+  position: relative;
+  z-index: 1;
 }
 /***list***/
 
