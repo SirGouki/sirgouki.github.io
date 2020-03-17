@@ -12,20 +12,12 @@
 
   <body>
 
-
-
-    <div class="menu">
-      <div style="width: 75%; margin: auto;">
-        <!--TODO: put navigation menu here -->
-      </div>
-
-      <!--TODO: javascript to autohide the menu-->
-    </div>
-
     <div class="header">
-      <img class="profile" src="./images/profile.png" alt="profile-img" />
+
       <h1>SirGouki</h1>
-      <p>a multi-faceted developer</p>
+
+      <h2>a multi-faceted developer</h2>
+
     </div>
 
     <div class="content" style="height:300px;">
@@ -41,37 +33,58 @@
 
     </div>
 
-    <div class="content" style="background-color: lightgreen;">
+    <!-- this is to keep the images in the previous arrangment-->
+    <div class="content" style="background-color: #ddffdd;">
 
       <!-- Create space between the first and second content areas -->
       <div style="height: 64px; width: 100%; position:static; display: block;"></div>
 
-      <!-- this is to keep the images in the previous arrangment-->
-      <h1>Skills</h1>
+      <img class="profile" src="./images/profile.png" alt="profile-img" />
+      <h3>Welcome.</h3>
+      <p style="width: 50%;">
+        I am a very self driven developer. This is proven by the fact that the majority
+        of my knowledge stems from learning from tutorials, snippets found online, and whatever
+        reading material I can get my hands on. I went so far as to purchase a web development course,
+        not because I needed it, but because I was curious as to how web development differs from
+        other software development. Here, you will find just a little bit more about me.
+      </p>
 
-      <h3>
-        Software Development
-        <img src="./images/web-development.png" alt="console-img" style="position: relative; display: block; height: 128px; width: 128px; left:47%;" />
-      </h3>
-      I am proficient in C#, C++, and other programming languages.<br />
-      I have developed some (small) games, helped fix bugs on a private server for a game, as well as assisted others in various problems they have come across.<br />
-      I have also made very basic operating systems, and other projects on the Raspberry Pi.
-      <hr style="margin-bottom:0; margin-top: 22px;" />
-      <h3>
-        Gaming
-        <img src="./images/controller.png" alt="controller-img" style="position: relative; display: block; height: 128px; width: 128px; left:47%;" />
-      </h3>
-      I have enjoyed playing games of all kinds for many years.<br />
-      While some may consider this just a hobby, it is often over looked just how much skill goes in to playing games really well.<br />
-      Playing games takes good problem solving skills, good math skills, good timing, and sometimes it can be just as stressful as the most demanding jobs.<br />
-      <hr style="margin-bottom:0; margin-top: 22px;" />
-      <h3>
-        Art
-        <img src="./images/sketchpad.png" alt="sketchpad-img" style="position: relative; display: block; height: 128px; width: 128px; left:47%;" />
-      </h3>
-      I have designed my own pixel art for games, also known as sprites. This includes animating game characters.<br />
-      I have also done some 3D modeling, just to learn a new skill.<br />
+      <div class="skills">
+        <h1>Skills</h1>
+
+        <div class="skill-row">
+          <img src="./images/web-development.png" alt="console-img" style="display: block; position: static; height: 37%; width: 37%; float: left; margin-right: 32px;" />
+          <h3>Software Development</h3>
+
+          I am proficient in C#, C++, and other programming languages.<br />
+          I have developed some (small) games, helped fix bugs on a private server for a game, as well as assisted others in various problems they have come across.<br />
+          I have also made very basic operating systems, and other projects on the Raspberry Pi.
+        </div>
+
+        <hr style="margin-bottom:0; margin-top: 22px;" />
+
+        <div class="skill-row">
+          <img src="./images/controller.png" alt="controller-img" style="position: relative; display: block; height: 30%; width: 30%; float: right; margin-left: 32px;" />
+          <h3>Gaming</h3>
+
+          I have enjoyed playing games of all kinds for many years.<br />
+          While some may consider this just a hobby, it is often over looked just how much skill goes in to playing games really well.<br />
+          Playing games takes good problem solving skills, good math skills, good timing, and sometimes it can be just as stressful as the most demanding jobs.<br />
+        </div>
+
+        <hr style="margin-bottom:0; margin-top: 22px;" />
+
+        <div class="skill-row">
+          <img src="./images/sketchpad.png" alt="sketchpad-img" style="position: relative; display: block; height: 12%; width: 12%; float: left; margin-right: 32px;" />
+          <h3>Art</h3>
+
+          I have designed my own pixel art for games, also known as sprites. This includes animating game characters.<br />
+          I have also done some 3D modeling, just to learn a new skill.<br />
+        </div>
+      </div>
+
       <div style="height: 64px; width: 100%; position:static; display: block;"></div>
+
       <h1>Knowledge</h1>
       I have always lived my life with the outlook that more knowledge about anything is a good thing.<br />
       Even as young as grade school, I've always desired to learn something I don't know.<br />
@@ -114,13 +127,27 @@
       An untitled game styled after The Legend of Zelda
 
       <div style="height: 64px; width: 100%; position:static; display: block;"></div>
+
+      <a href="#" class="BUTTON_LVO">CONTACT ME</a>
     </div>
 
 
 
-    <div class="footer" style="text-align: left;">
-      <em>Copyright SirGouki 2019-2020. All rights reserved. Any mentions of commercial software, games, or products are trademarked to their respective creators, license holders, and companies. All artwork used was obtained from Attribution free,
-        royalty free sources.</em>
+    <div class="footer">
+      <div class="footer-text">
+        <ul>
+          <li><a href="https://sirgouki.github.io">Website</a></li>
+          <li><a href="#">Twitch</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+        <div>
+          <!-- To create a gap to get the copyright out of the links-->
+        </div>
+
+        <em>Copyright SirGouki 2019-2020. All rights reserved. Any mentions of commercial software, games, or products are trademarked to their respective creators, license holders, and companies. All artwork used was obtained from Attribution free,
+          royalty free sources.</em>
+      </div>
     </div>
   </body>
 
