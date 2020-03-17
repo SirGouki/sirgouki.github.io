@@ -55,7 +55,9 @@ hr{
   border-style: dotted;
   color: #378837;
   width: 5rem;
-  margin-top: 8px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 li {
   display: inline;
@@ -69,12 +71,15 @@ li a{
   padding-left: 24px;
   padding-right: 24px;
 }
+a:hover{
+  color: #ddffdd;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 16px;
+  padding-bottom: 64px;
 }
 /*** Classes ***/
 /*** divs ***/
@@ -89,14 +94,17 @@ ul {
   background-color: #c7ffc7;
   /*color: #776677;*/
   position: relative;
+  padding-top: 100px;
+
 }
 .footer{
-  background-color: #77aa77;
+  background-color: #90c390;
+  padding-top: 64px;
   padding-bottom: 64px;
 }
 .footer-text{
   color: #EAF6F6;
-  font-size: 1.5rem;
+  font-size: 0.75rem;
   text-align: center;
   width: 75%;
 }
@@ -156,9 +164,9 @@ ul {
    border-radius: 20px;
    color: #FFFFFF;
    font-family: Arial;
-   font-size: 40px;
+   font-size: 24px;
    font-weight: 100;
-   padding: 20px;
+   padding: 16px;
    border: solid #33ED6A 1px;
    text-decoration: none;
    display: inline-block;
